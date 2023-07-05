@@ -23,7 +23,7 @@
     "launchdarkly-js-client-sdk": "2.24.2"
   },
   "dependencies": {
-    "@kong-ui-public/analytics-chart": "0.3.1-pr.598.3637ace.0",
+    "@kong-ui-public/analytics-chart": "0.3.1",
     "@kong-ui-public/analytics-utilities": "0.4.3",
     "@kong-ui-public/copy-uuid": "0.3.15",
     "@kong-ui-public/document-viewer": "0.8.4",
