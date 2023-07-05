@@ -814,10 +814,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@kong-ui-public/analytics-chart@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@kong-ui-public/analytics-chart/-/analytics-chart-0.2.3.tgz#2d413e89953d20481ac5f51e9ba2685b107b5207"
-  integrity sha512-PmwFxk3JcsGThiNJC4/mitphCzU4RhnrLW9/N9RDgZONtRnXW7dbeuhgv/acKClqcz4XoHMezoxYB815j/xqIA==
+"@kong-ui-public/analytics-chart@^0.3.1-pr.598.3637ace.0":
+  version "0.3.1-pr.598.3637ace.0"
+  resolved "https://registry.yarnpkg.com/@kong-ui-public/analytics-chart/-/analytics-chart-0.3.1-pr.598.3637ace.0.tgz#0bf53aef6cc2f7088a4db1fd9b524bfa4a5c9d4f"
+  integrity sha512-7Pmbpzwe2pq3JkZ5dDJ7fRi1GfkIy7MR3otFR1D7T91t7vz0uVTO+zoMF53Yif4RtN9Na0DemWK2uOh2x30RcA==
   dependencies:
     "@kong-ui-public/analytics-utilities" "^0.4.3"
     approximate-number "^2.1.0"
