@@ -814,7 +814,7 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@kong-ui-public/analytics-chart@^0.3.1-pr.598.3637ace.0":
+"@kong-ui-public/analytics-chart@0.3.1-pr.598.3637ace.0":
   version "0.3.1-pr.598.3637ace.0"
   resolved "https://registry.yarnpkg.com/@kong-ui-public/analytics-chart/-/analytics-chart-0.3.1-pr.598.3637ace.0.tgz#0bf53aef6cc2f7088a4db1fd9b524bfa4a5c9d4f"
   integrity sha512-7Pmbpzwe2pq3JkZ5dDJ7fRi1GfkIy7MR3otFR1D7T91t7vz0uVTO+zoMF53Yif4RtN9Na0DemWK2uOh2x30RcA==
@@ -830,7 +830,7 @@
     uuid "^9.0.0"
     vue-chartjs "^5.2.0"
 
-"@kong-ui-public/analytics-utilities@^0.4.3":
+"@kong-ui-public/analytics-utilities@0.4.3", "@kong-ui-public/analytics-utilities@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@kong-ui-public/analytics-utilities/-/analytics-utilities-0.4.3.tgz#bf66e1fd327ce728eccbf40ebb1c88d392a0259c"
   integrity sha512-2mlYatUIRRFq5m6cVhALv34BExF6/TpC9X9Y3uPdiYZso8HoKagB+MnSwTbkUIdxU0oUHgfxoIPBa8OwttzKxg==
@@ -3358,7 +3358,7 @@ drange@^1.0.2:
   resolved "https://registry.yarnpkg.com/drange/-/drange-1.1.1.tgz#b2aecec2aab82fcef11dbbd7b9e32b83f8f6c0b8"
   integrity sha512-pYxfDYpued//QpnLIm4Avk7rsNtAtQkUES2cwAYSvD/wd2pKD71gN2Ebj3e7klzXwjocvE8c5vx/1fxwpqmSxA==
 
-druid.d.ts@^0.12.2:
+druid.d.ts@0.12.2:
   version "0.12.2"
   resolved "https://registry.yarnpkg.com/druid.d.ts/-/druid.d.ts-0.12.2.tgz#ff494fb76ea0fed64254ab91ca8e257c5c20b2d1"
   integrity sha512-hpt6yu61+WSDC6vPp7IVW1O/G7r/fNDpQ6cQbVh1g7KnjUdnAEs4mZqhl/UgYaqI9/uueoBh01Me7Ka8Zk/32w==
