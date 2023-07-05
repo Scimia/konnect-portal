@@ -3358,6 +3358,11 @@ drange@^1.0.2:
   resolved "https://registry.yarnpkg.com/drange/-/drange-1.1.1.tgz#b2aecec2aab82fcef11dbbd7b9e32b83f8f6c0b8"
   integrity sha512-pYxfDYpued//QpnLIm4Avk7rsNtAtQkUES2cwAYSvD/wd2pKD71gN2Ebj3e7klzXwjocvE8c5vx/1fxwpqmSxA==
 
+druid.d.ts@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/druid.d.ts/-/druid.d.ts-0.12.2.tgz#ff494fb76ea0fed64254ab91ca8e257c5c20b2d1"
+  integrity sha512-hpt6yu61+WSDC6vPp7IVW1O/G7r/fNDpQ6cQbVh1g7KnjUdnAEs4mZqhl/UgYaqI9/uueoBh01Me7Ka8Zk/32w==
+
 duplexer@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.2.tgz#3abe43aef3835f8ae077d136ddce0f276b0400e6"
@@ -7712,6 +7717,11 @@ swrv@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/swrv/-/swrv-1.0.3.tgz#b1af4f55a77d74336d29956924cb1b61f564490f"
   integrity sha512-sl+eLEE+aPPjhP1E8gQ75q3RPRyw5Gd/kROnrTFo3+LkCeLskv7F+uAl5W97wgJkzitobL6FLsRPVm0DgIgN8A==
+
+swrv@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/swrv/-/swrv-1.0.4.tgz#278b4811ed4acbb1ae46654972a482fd1847e480"
+  integrity sha512-zjEkcP8Ywmj+xOJW3lIT65ciY/4AL4e/Or7Gj0MzU3zBJNMdJiT8geVZhINavnlHRMMCcJLHhraLTAiDOTmQ9g==
 
 tabbable@^6.1.2:
   version "6.1.2"
