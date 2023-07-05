@@ -13,20 +13,20 @@ export default function useChartRequest (query, timeframe, productVersions): Com
   const endMs = computed(() => timeseriesQueryTime.value.endMs())
   const granularity = computed(() => timeseriesQueryTime.value.granularityMs())
 
-  if (query.meta.queryId === 'portal-chart-traffic') {
-    console.log('query.meta.queryId', query.meta.queryId)
-    console.log(`${query.meta.queryId}-${productVersionsCacheKey.value}-${startMs.value}-${endMs.value}`)
-  }
+  // if (query.meta.queryId === 'portal-chart-traffic') {
+  //   console.log('query.meta.queryId', query.meta.queryId)
+  //   console.log(`${query.meta.queryId}-${productVersionsCacheKey.value}-${startMs.value}-${endMs.value}`)
+  // }
 
   try {
     if (!query.filter || !query.filter.length) {
-      console.warn('Query filter cannot be empty.')
+      // console.warn('Query filter cannot be empty.')
 
       return null
     }
 
     const request = useRequest<AnalyticsExploreV2Result>(
-      () => query && query.filter && `${query.meta.queryId}`,
+      () => query && query.filter && `${query.meta.queryId}-${productVersionsCacheKey.value}-${startMs.value}-${endMs.value}`,
       () => portalApiV2.value.getVitals(
         `/api/v2/stats/explore?startMs=${startMs.value}&endMs=${endMs.value}`,
         { ...query, granularityMs: granularity.value }
@@ -39,7 +39,7 @@ export default function useChartRequest (query, timeframe, productVersions): Com
 
     return request?.data
   } catch (e) {
-    console.warn(e)
+    console.error('failed to gather Chart data', e)
 
     return null
   }

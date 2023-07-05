@@ -157,7 +157,7 @@ export const portalRouter = () => {
                     name: 'application-dashboard',
                     meta: { title: 'Application Dashboard' },
                     component: () => import('../views/Applications/ApplicationDashboard.vue')
-                  },
+                  }
                 ]
               }
             ]

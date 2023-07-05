@@ -45,7 +45,7 @@ export const en = {
     deprecatedWarningService: 'This service version is now deprecated. The endpoints will remain fully usable until this version is sunsetted.',
     noServiceVersionsDetail: 'This App is not registered for any Service Versions',
     noServiceVersionsTitle: 'No Service Versions',
-    registerServiceVersion: 'Register Service version',
+    registerServiceVersion: 'Register Service version'
   },
   userDropdown: {
     myApps: 'My Apps',

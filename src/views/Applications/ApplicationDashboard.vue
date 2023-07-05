@@ -124,7 +124,7 @@ import {
 } from '@kong-ui-public/analytics-utilities'
 import { ProductVersionData, ProductVersionsResult } from '@/types/productVersion'
 // import AnalyticsMetricsCard from '@/components/AnalyticsMetricsCard.vue'
-import ChartPanel from '@/components/vitals/ChartPanel.vue'
+// import ChartPanel from '@/components/vitals/ChartPanel.vue'
 import { useRoute } from 'vue-router'
 import PageTitle from '@/components/PageTitle.vue'
 import { useAppStore, useI18nStore } from '@/stores'
