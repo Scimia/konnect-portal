@@ -1,7 +1,7 @@
 name: Sync changes from release tag
 on:
   release:
-    types: [published, created, released]
+    types: published
 jobs:
   merge:
     runs-on: ubuntu-latest
