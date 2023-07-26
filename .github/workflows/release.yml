@@ -16,10 +16,6 @@ jobs:
           node-version-file: '.nvmrc'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Copy .env.example
-        run: cp .env.example .env
-      - name: Build
-        run: yarn build
       - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
