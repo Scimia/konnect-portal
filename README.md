@@ -10,7 +10,7 @@
 
 # Konnect Dev Portal Client
 
-## Andrew is awesome!
+## Andrew is awesome!!!
 
 This is repo an [open source][oss-url] reference implementation of a Konnect Developer Portal Client leveraging the [Konnect Developer Portal Client API][portal-api-url] and [JavaScript SDK][javscript-sdk-url].
 
