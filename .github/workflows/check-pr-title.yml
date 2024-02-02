@@ -10,6 +10,7 @@ on:
 
 jobs:
   lint:
+    timeout-minutes: ${{ fromJSON(vars.GHA_DEFAULT_TIMEOUT) }}
     runs-on: ubuntu-latest
     permissions:
       statuses: write
