@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   release:
+    timeout-minutes: ${{ fromJSON(vars.GHA_DEFAULT_TIMEOUT) }}
     name: Release
     runs-on: ubuntu-latest
     steps:
