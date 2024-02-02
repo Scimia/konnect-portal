@@ -5,6 +5,7 @@ on:
 
 jobs:
   code-quality:
+    timeout-minutes: ${{ fromJSON(vars.GHA_DEFAULT_TIMEOUT) }}
     name: Lint and type check
     runs-on: ubuntu-latest
     steps:
@@ -29,6 +30,7 @@ jobs:
       - name: Check TypeScript types
         run: yarn typecheck
   tests:
+    timeout-minutes: ${{ fromJSON(vars.GHA_DEFAULT_TIMEOUT) }}
     name: Tests
     runs-on: ubuntu-latest
     needs: code-quality
